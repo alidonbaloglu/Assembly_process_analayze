@@ -1,0 +1,64 @@
+{
+    "model": "yolov8n.pt",
+    "fold": 2,
+    "timestamp": "2026-02-02 22:42:13",
+    "training_time_hours": 2.9996203349696264,
+    "validation": {
+        "box": {
+            "precision": 0.939875757331095,
+            "recall": 0.9044058947087568,
+            "mAP50": 0.9387490669896411,
+            "mAP50-95": 0.7904317764848712
+        }
+    },
+    "class_results": [
+        {
+            "class_id": 0,
+            "class_name": "black_connector",
+            "mAP50": 0.8950499493805775,
+            "mAP50-95": 0.6425061199702482
+        },
+        {
+            "class_id": 1,
+            "class_name": "button_hand",
+            "mAP50": 0.9744903509207057,
+            "mAP50-95": 0.6899049509658128
+        },
+        {
+            "class_id": 2,
+            "class_name": "fixture",
+            "mAP50": 0.995,
+            "mAP50-95": 0.9753059021547337
+        },
+        {
+            "class_id": 3,
+            "class_name": "pcb",
+            "mAP50": 0.9733209301456487,
+            "mAP50-95": 0.8618924905098713
+        },
+        {
+            "class_id": 4,
+            "class_name": "power_connector",
+            "mAP50": 0.7763601135855817,
+            "mAP50-95": 0.5667566278603691
+        },
+        {
+            "class_id": 5,
+            "class_name": "reflector",
+            "mAP50": 0.9664814805641421,
+            "mAP50-95": 0.8428604123877337
+        },
+        {
+            "class_id": 6,
+            "class_name": "screwing",
+            "mAP50": 0.989001586546089,
+            "mAP50-95": 0.9241830545796983
+        },
+        {
+            "class_id": 7,
+            "class_name": "test_connector",
+            "mAP50": 0.9402881247743841,
+            "mAP50-95": 0.8200446534505014
+        }
+    ]
+}

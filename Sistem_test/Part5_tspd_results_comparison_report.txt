@@ -1,0 +1,111 @@
+================================================================================
+TSPD SİSTEM PERFORMANS KARŞILAŞTIRMA RAPORU
+================================================================================
+
+DOSYA BİLGİLERİ:
+Tahmin Dosyası: Part5_tspd_results.json
+Gerçek Sonuç Dosyası: part5_gercek_sonuclar.json
+
+GENEL BİLGİLER:
+Toplam İşlenen Frame: 1208
+Tahmin Edilen Görev Sayısı: 10
+Gerçek Görev Sayısı: 10
+
+GÖREV TESPİTİ SONUÇLARI:
+Doğru Nesne Tespitleri: 10/10
+Nesne Tespiti Doğruluğu: %100.0
+
+FRAME ANALİZİ:
+Ortalama IoU (Intersection over Union): 0.659
+Ortalama Frame Hatası: 24.0 frame
+
+SÜRE ANALİZİ:
+Ortalama Süre Hatası: 1.35 saniye
+Ortalama Süre Hata Yüzdesi: %103.95
+Maksimum Süre Hatası: 5.75 saniye
+Minimum Süre Hatası: 0.06 saniye
+
+GÖREV BAZLI DETAYLAR:
+--------------------------------------------------------------------------------
+
+GÖREV 1:
+  ✓ Nesne Tespiti: fixture (DOĞRU)
+  Frame Aralığı: Tahmin=[0, 126], Gerçek=[0, 127]
+  Frame Farkı: Başlangıç=0, Bitiş=1
+  Süre: Tahmin=4.34s, Gerçek=4.24s
+  Süre Farkı: 0.11s (%2.53 hata)
+  ✓ Grup: Fikstur (DOĞRU)
+
+GÖREV 2:
+  ✓ Nesne Tespiti: reflector (DOĞRU)
+  Frame Aralığı: Tahmin=[126, 181], Gerçek=[127, 179]
+  Frame Farkı: Başlangıç=1, Bitiş=2
+  Süre: Tahmin=1.9s, Gerçek=1.74s
+  Süre Farkı: 0.16s (%9.31 hata)
+  ✓ Grup: Reflektor (DOĞRU)
+
+GÖREV 3:
+  ✓ Nesne Tespiti: pcb (DOĞRU)
+  Frame Aralığı: Tahmin=[181, 212], Gerçek=[179, 207]
+  Frame Farkı: Başlangıç=2, Bitiş=5
+  Süre: Tahmin=1.07s, Gerçek=0.93s
+  Süre Farkı: 0.13s (%14.42 hata)
+  ✓ Grup: PCB (DOĞRU)
+
+GÖREV 4:
+  ✓ Nesne Tespiti: button_hand (DOĞRU)
+  Frame Aralığı: Tahmin=[212, 278], Gerçek=[207, 277]
+  Frame Farkı: Başlangıç=5, Bitiş=1
+  Süre: Tahmin=2.28s, Gerçek=2.34s
+  Süre Farkı: 0.06s (%2.56 hata)
+  ✓ Grup: Buton (DOĞRU)
+
+GÖREV 5:
+  ✓ Nesne Tespiti: screwing (DOĞRU)
+  Frame Aralığı: Tahmin=[278, 866], Gerçek=[277, 810]
+  Frame Farkı: Başlangıç=1, Bitiş=56
+  Süre: Tahmin=20.28s, Gerçek=17.78s
+  Süre Farkı: 2.49s (%14.01 hata)
+  ✓ Grup: Vidalama (DOĞRU)
+
+GÖREV 6:
+  ✓ Nesne Tespiti: test_connector (DOĞRU)
+  Frame Aralığı: Tahmin=[866, 939], Gerçek=[830, 895]
+  Frame Farkı: Başlangıç=36, Bitiş=44
+  Süre: Tahmin=2.52s, Gerçek=2.17s
+  Süre Farkı: 0.35s (%16.06 hata)
+  ✓ Grup: Konnektorler (DOĞRU)
+
+GÖREV 7:
+  ✓ Nesne Tespiti: black_connector (DOĞRU)
+  Frame Aralığı: Tahmin=[939, 994], Gerçek=[896, 989]
+  Frame Farkı: Başlangıç=43, Bitiş=5
+  Süre: Tahmin=1.9s, Gerçek=3.1s
+  Süre Farkı: 1.21s (%38.88 hata)
+  ✓ Grup: Konnektorler (DOĞRU)
+
+GÖREV 8:
+  ✓ Nesne Tespiti: button_hand (DOĞRU)
+  Frame Aralığı: Tahmin=[994, 1180], Gerçek=[990, 1010]
+  Frame Farkı: Başlangıç=4, Bitiş=170
+  Süre: Tahmin=6.41s, Gerçek=0.67s
+  Süre Farkı: 5.75s (%861.11 hata)
+  ✓ Grup: Buton (DOĞRU)
+
+GÖREV 9:
+  ✓ Nesne Tespiti: power_connector (DOĞRU)
+  Frame Aralığı: Tahmin=[1180, 1207], Gerçek=[1080, 1203]
+  Frame Farkı: Başlangıç=100, Bitiş=4
+  Süre: Tahmin=0.93s, Gerçek=4.1s
+  Süre Farkı: 3.17s (%77.31 hata)
+  ✓ Grup: Power konnektor (DOĞRU)
+
+GÖREV 10:
+  ✓ Nesne Tespiti: fixture (DOĞRU)
+  Frame Aralığı: Tahmin=[1207, 1271], Gerçek=[1207, 1271]
+  Frame Farkı: Başlangıç=0, Bitiş=0
+  Süre: Tahmin=2.21s, Gerçek=2.14s
+  Süre Farkı: 0.07s (%3.34 hata)
+  ✓ Grup: Fikstur (DOĞRU)
+
+================================================================================

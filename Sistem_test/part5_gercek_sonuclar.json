@@ -1,0 +1,109 @@
+{
+  "total_tasks": 10,
+  "total_frames_processed": 1272,
+  "video_file": "part5.mp4",
+  "fps": 29.97002997002997,
+  "labeled_date": "2026-01-20 09:19:10",
+  "task_history": [
+    {
+      "task_number": 1,
+      "start_frame": 0,
+      "current_object": "fixture",
+      "previous_object": "fixture",
+      "end_frame": 127,
+      "duration": 127,
+      "duration_seconds": 4.237566666666667,
+      "group": "Fikstur"
+    },
+    {
+      "task_number": 2,
+      "start_frame": 127,
+      "current_object": "reflector",
+      "previous_object": "fixture",
+      "end_frame": 179,
+      "duration": 52,
+      "duration_seconds": 1.7350666666666668,
+      "group": "Reflektor"
+    },
+    {
+      "task_number": 3,
+      "start_frame": 179,
+      "current_object": "pcb",
+      "previous_object": "reflector",
+      "end_frame": 207,
+      "duration": 28,
+      "duration_seconds": 0.9342666666666667,
+      "group": "PCB"
+    },
+    {
+      "task_number": 4,
+      "start_frame": 207,
+      "current_object": "button_hand",
+      "previous_object": "pcb",
+      "end_frame": 277,
+      "duration": 70,
+      "duration_seconds": 2.3356666666666666,
+      "group": "Buton"
+    },
+    {
+      "task_number": 5,
+      "start_frame": 277,
+      "current_object": "screwing",
+      "previous_object": "button_hand",
+      "end_frame": 810,
+      "duration": 533,
+      "duration_seconds": 17.784433333333332,
+      "group": "Vidalama"
+    },
+    {
+      "task_number": 6,
+      "start_frame": 830,
+      "current_object": "test_connector",
+      "previous_object": "screwing",
+      "end_frame": 895,
+      "duration": 65,
+      "duration_seconds": 2.168833333333333,
+      "group": "Konnektorler"
+    },
+    {
+      "task_number": 7,
+      "start_frame": 896,
+      "current_object": "black_connector",
+      "previous_object": "test_connector",
+      "end_frame": 989,
+      "duration": 93,
+      "duration_seconds": 3.1031,
+      "group": "Konnektorler"
+    },
+    {
+      "task_number": 8,
+      "start_frame": 990,
+      "current_object": "button_hand",
+      "previous_object": "black_connector",
+      "end_frame": 1010,
+      "duration": 20,
+      "duration_seconds": 0.6673333333333333,
+      "group": "Buton"
+    },
+    {
+      "task_number": 9,
+      "start_frame": 1080,
+      "current_object": "power_connector",
+      "previous_object": "button_hand",
+      "end_frame": 1203,
+      "duration": 123,
+      "duration_seconds": 4.1041,
+      "group": "Power konnektor"
+    },
+    {
+      "task_number": 10,
+      "start_frame": 1207,
+      "current_object": "fixture",
+      "previous_object": "power_connector",
+      "end_frame": 1271,
+      "duration": 64,
+      "duration_seconds": 2.135466666666667,
+      "group": "Fikstur"
+    }
+  ]
+}
